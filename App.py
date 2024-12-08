@@ -11,6 +11,9 @@ from pathlib import Path
 file_path = '198_Peserta_Perhitungan_IQ.xlsx'
 data = pd.read_excel(file_path)
 
+# Menggunakan path relatif
+image_path = 'static/paper-brain-with-light-bulb.jpg'
+
 # Load dataset
 data = pd.read_excel(file_path)
 
